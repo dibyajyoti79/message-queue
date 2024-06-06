@@ -4,7 +4,7 @@ const notificationQueue = new Queue("email-queue");
 
 async function init() {
   const res = await notificationQueue.add("email to dibya", {
-    email: "m2dibya@gmail.com",
+    email: "test@gmail.com",
     subject: "test email notification",
     body: "this is a test body",
   });
